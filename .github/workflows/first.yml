@@ -1,0 +1,11 @@
+name: First Manual Workflow
+on: workflow_dispatch
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print jaspal
+        run: echo "Jaspal"
+      - name: print aman
+        run: echo "Aman"
